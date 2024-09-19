@@ -65,6 +65,16 @@
           ],
           [
             {
+              "id": "AddUsers_GetEventDetail",
+              "name": "GetEventDetail",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.eventId"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "AddUsers_ReportType",
               "name": "ReportType",
               "confirmBeforeExecute": false,

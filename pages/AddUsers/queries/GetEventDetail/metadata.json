@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "GetNames",
+    "name": "GetEventDetail",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Users WHERE roll=3 OR roll=4 ORDER BY userId;",
+      "body": "SELECT * FROM EventDetails WHERE eventId={{appsmith.store.eventId}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,18 +27,24 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.eventId"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-19T02:40:21Z"
+    "createdAt": "2024-09-19T03:42:09Z"
   },
-  "id": "AddUsers_GetNames",
+  "id": "AddUsers_GetEventDetail",
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_ae42fccc-0419-48b8-a1eb-74b156417dc5"
+  "gitSyncId": "66d7644eedc53936732abcfa_f771d3e2-9f4a-4501-998d-e66fe506ead6"
 }

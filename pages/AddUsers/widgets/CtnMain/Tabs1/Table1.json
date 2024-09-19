@@ -73,7 +73,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 43,
+    "bottomRow": 59,
     "columnWidthMap": {
         "name": 141,
         "customColumn1": 60
@@ -82,7 +82,7 @@
     "hideCard": false,
     "mobileRightColumn": 42,
     "parentColumnSpace": 6.11181640625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "primaryColumns.customColumn1.onClick"}],
     "borderWidth": "1",
     "primaryColumns": {
         "date": {
@@ -152,6 +152,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{storeValue('eventId', currentRow.id).then(() => {\n  showModal('MdlEventDetail');\n  GetNames.run();\n});}}",
             "buttonColor": "#15803d",
             "isEditable": false,
             "notation": "standard",
@@ -178,6 +179,7 @@
             "isCellEditable": false,
             "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
+            "buttonVariant": "PRIMARY",
             "width": 150,
             "enableFilter": true,
             "sticky": "",
