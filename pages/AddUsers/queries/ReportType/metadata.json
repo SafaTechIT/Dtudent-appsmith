@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "showUsers",
+    "name": "ReportType",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "AddReport",
+    "pageId": "AddUsers",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT u.id AS id, u.name, r.`name` AS roll FROM Users u JOIN RollType r ON r.id=u.roll;",
+      "body": "SELECT * FROM ReportType;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-03T20:40:34Z"
+    "createdAt": "2024-09-19T02:57:50Z"
   },
-  "id": "AddReport_showUsers",
+  "id": "AddUsers_ReportType",
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_38c2106e-fa56-4c07-9271-4d5d6a462bf3"
+  "gitSyncId": "66d7644eedc53936732abcfa_28f27649-b8f7-46b0-bd62-d8955eee9141"
 }

@@ -3,10 +3,6 @@
     {
       "id": "AddUsers",
       "isDefault": true
-    },
-    {
-      "id": "AddReport",
-      "isDefault": false
     }
   ],
   "viewMode": false,

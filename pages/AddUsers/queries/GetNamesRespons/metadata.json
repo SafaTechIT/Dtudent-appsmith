@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "AddUser",
+    "name": "GetNamesRespons",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "AddReport",
+    "pageId": "AddUsers",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Users (userId, name, phone, roll)\n  VALUES ({{InpUesrid.text}}, {{InpName.text}}, {{InpPhone.text}}, 4);",
+      "body": "SELECT * FROM Users WHERE roll=3;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,27 +26,19 @@
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "InpName.text",
-      "InpPhone.text",
-      "InpUesrid.text"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-03T20:52:11Z"
+    "createdAt": "2024-09-19T03:05:43Z"
   },
-  "id": "AddReport_AddUser",
+  "id": "AddUsers_GetNamesRespons",
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_b5e7b635-1fc6-4302-b193-206fddab2681"
+  "gitSyncId": "66d7644eedc53936732abcfa_f726cfb3-9b1e-4886-92f0-181b92f0e534"
 }

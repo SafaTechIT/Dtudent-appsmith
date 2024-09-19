@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 700,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,8 +29,34 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "AddUsers_GetNames",
+              "name": "GetNames",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "AddUsers_showUsers",
               "name": "showUsers",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "AddUsers_GetNamesRespons",
+              "name": "GetNamesRespons",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "AddUsers_ReportType",
+              "name": "ReportType",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
