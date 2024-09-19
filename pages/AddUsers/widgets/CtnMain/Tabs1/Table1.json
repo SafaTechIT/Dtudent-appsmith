@@ -152,7 +152,7 @@
         "customColumn1": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{storeValue('eventId', currentRow.id).then(() => {\n  showModal('MdlEventDetail');\n  GetNames.run();\n});}}",
+            "onClick": "{{storeValue('eventId', currentRow.id).then(() => {\n  showModal('MdlEventDetail');\n  GetNames.run();\n  GetEventDetail.run();\n});}}",
             "buttonColor": "#15803d",
             "isEditable": false,
             "notation": "standard",
