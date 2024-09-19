@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "GetNamesRespons",
+    "name": "GetEvents",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Users WHERE roll=3;",
+      "body": "SELECT * FROM Event;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-19T03:05:43Z"
+    "createdAt": "2024-09-19T03:20:03Z"
   },
-  "id": "AddUsers_GetNamesRespons",
+  "id": "AddUsers_GetEvents",
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_f726cfb3-9b1e-4886-92f0-181b92f0e534"
+  "gitSyncId": "66d7644eedc53936732abcfa_cd753002-f7a6-468d-9ca4-1949cd392496"
 }
