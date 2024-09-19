@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "showUsers",
+    "name": "GetFullEventDetail",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT u.userId AS id, u.name, r.`name` AS roll FROM Users u JOIN RollType r ON r.id=u.roll ORDER BY u.userId;",
+      "body": "SELECT e.date, SUM(ed.status) AS s FROM Event e LEFT JOIN EventDetails ed ON ed.eventId=e.id GROUP BY e.date;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-09-03T20:40:34Z"
+    "createdAt": "2024-09-19T05:05:47Z"
   },
-  "id": "AddUsers_showUsers",
+  "id": "AddUsers_GetFullEventDetail",
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_ee939a12-cef4-4582-b87e-10b57982aa21"
+  "gitSyncId": "66d7644eedc53936732abcfa_88b07f52-cfe5-4fc0-9592-3cc2502ab35d"
 }

@@ -382,7 +382,7 @@
             "sticky": "",
             "originalId": "userId",
             "currencyCode": "USD",
-            "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( \nGetEventDetail.data.find(item => item.userId === currentRow.userId)?'#86efac' : '#fca5a5'\n))}}",
+            "cellBackground": "{{Table2.processedTableData.map((currentRow, currentIndex) => (         GetEventDetail.data.find(item => item.userId === currentRow.userId) ?\n        GetEventDetail.data.find(item => item.userId === currentRow.userId).status === 1 ? '#86efac' : '#ef4444'\n            : '#f4f4f5'\n))}}",
             "verticalAlignment": "CENTER"
         }
     },

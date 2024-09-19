@@ -78,7 +78,10 @@
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 66,
-    "columnWidthMap": {"customColumn1": 60},
+    "columnWidthMap": {
+        "customColumn1": 60,
+        "userId": 120
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 38,
@@ -182,7 +185,7 @@
         "customColumn1": {
             "boxShadow": "{{TblStudent.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{showModal('MdlSubmit');\nstoreValue('id', currentRow.userId);\nstoreValue('name', currentRow.name);}}",
+            "onClick": "{{storeValue('id', currentRow.userId).then(() => {\n  showModal('MdlSubmit');\n  storeValue('name', currentRow.name);\n});}}",
             "buttonColor": "#b91c1c",
             "isEditable": false,
             "notation": "standard",
