@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "AddUsers",
-    "slug": "addusers",
+    "name": "AddReport",
+    "slug": "addreport",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 830,
+          "bottomRow": 610,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "AddUsers_showUsers",
+              "id": "AddReport_showUsers",
               "name": "showUsers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -40,7 +40,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "AddUsers",
+        "id": "AddReport",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +51,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_f3786695-1d44-4bbf-a13e-748ea6312625"
+  "gitSyncId": "66d7644eedc53936732abcfa_5d8917eb-ccd6-47ee-990c-a1a73c6a3d53"
 }

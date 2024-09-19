@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "BtnConfirm",
-    "onClick": "{{AddUser.run();\ncloseModal('MdlAdd');\nshowUsers.run()}}",
+    "onClick": "{{AddUser.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",

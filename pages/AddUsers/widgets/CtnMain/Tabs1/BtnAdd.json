@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 10.85400390625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59,
+    "leftColumn": 53,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -31,11 +31,11 @@
     "rightColumn": 63,
     "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
     "iconName": "plus",
-    "widgetId": "j9epp1u3vc",
+    "widgetId": "v808weos7x",
     "minWidth": 50,
     "isVisible": true,
     "version": 1,
-    "parentId": "le3wcpv1vc",
+    "parentId": "dv22i3c2ht",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,

@@ -3,6 +3,10 @@
     {
       "id": "AddUsers",
       "isDefault": true
+    },
+    {
+      "id": "AddReport",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +19,9 @@
   },
   "color": "#F5D1D1",
   "icon": "sunflower",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
