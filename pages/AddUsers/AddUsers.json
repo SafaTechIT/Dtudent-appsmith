@@ -1,101 +1,33 @@
 {
+  "gitSyncId": "66d7644eedc53936732abcfa_f3786695-1d44-4bbf-a13e-748ea6312625",
   "unpublishedPage": {
-    "name": "AddUsers",
-    "slug": "addusers",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 740,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 740,
-          "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "AddUsers_GetEvents",
-              "name": "GetEvents",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "AddUsers_GetNamesRespons",
-              "name": "GetNamesRespons",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "AddUsers_GetNames",
-              "name": "GetNames",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "AddUsers_showUsers",
-              "name": "showUsers",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "AddUsers_GetEventDetail",
-              "name": "GetEventDetail",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.eventId"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "AddUsers_ReportType",
-              "name": "ReportType",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "AddUsers",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "66d7644eedc53936732abcfa_f3786695-1d44-4bbf-a13e-748ea6312625"
+    "name": "AddUsers",
+    "slug": "addusers"
+  }
 }

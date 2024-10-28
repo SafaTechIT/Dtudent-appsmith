@@ -1,53 +1,63 @@
 {
-    "resetFormOnClick": false,
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 22,
-    "widgetName": "BtnConf",
-    "onClick": "{{AddReport.run().then(() => {\n  closeModal('MdlSubmit');\n  showAlert('مورد با موفقیت ثبت شد', 'success');\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 26,
-    "bottomRow": 30,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 63,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 46,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "ثبت",
-    "isDisabled": false,
-    "key": "f4tz7t88mj",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
-    "isDefaultClickDisabled": true,
-    "widgetId": "1854ppfyqt",
-    "buttonStyle": "PRIMARY_BUTTON",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "kf9bbbi7a9",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 26,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 47,
-    "originalBottomRow": 30,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f4tz7t88mj",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{AddReport.run().then(() => {\n  closeModal('MdlSubmit');\n  showAlert('مورد با موفقیت ثبت شد', 'success');\n});}}",
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
+  "parentId": "kf9bbbi7a9",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "ثبت",
+  "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
+  "topRow": 26,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1854ppfyqt",
+  "widgetName": "BtnConf"
 }

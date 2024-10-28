@@ -1,47 +1,57 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 4,
-    "widgetName": "BtnRefresh",
-    "onClick": "{{showUsers.run()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Icon button",
-    "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 58,
-    "animateLoading": true,
-    "parentColumnSpace": 10.85400390625,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 44,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "8af5ypcefa",
-    "isDeprecated": false,
-    "rightColumn": 52,
-    "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-    "iconName": "refresh",
-    "widgetId": "2jjpoysyhu",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "dv22i3c2ht",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 54,
-    "buttonVariant": "PRIMARY"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "refresh",
+  "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8af5ypcefa",
+  "leftColumn": 44,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 54,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{showUsers.run()}}",
+  "parentColumnSpace": 10.85400390625,
+  "parentId": "dv22i3c2ht",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 52,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2jjpoysyhu",
+  "widgetName": "BtnRefresh"
 }
