@@ -44,7 +44,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{AddUser.run();\ncloseModal('MdlAdd');\nshowUsers.run()}}",
+  "onClick": "{{AddUser.run().then(() => {\n  InsertNewPasswrod.run();\n}).catch(() => {\n  showAlert('خطا در ثبت کاربر جدید', 'error');\n});\ncloseModal('MdlAdd');\nshowUsers.run();}}",
   "originalBottomRow": 28,
   "originalTopRow": 24,
   "parentId": "uwysf4p64a",

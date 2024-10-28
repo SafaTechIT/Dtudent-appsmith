@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66d7644eedc53936732abcfa_c564300a-a072-471e-935d-438cc3062147",
-  "id": "AddUsers_AddUser",
+  "gitSyncId": "671f8e1d0971a32bcdd71b71_29304b40-3d1c-4852-86e7-3d86f82e674e",
+  "id": "AddUsers_InsertNewPasswrod",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO Users (userId, name, phone, roll)\n  VALUES ({{InpUesrid.text}}, {{InpName.text}}, {{InpPhone.text}}, 4);",
+      "body": "INSERT INTO Abroody_1 (userid, password)\n  VALUES ({{InpUesrid.text}}, {{InpUesrid.text}});",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "AddUser",
+    "name": "InsertNewPasswrod",
     "pageId": "AddUsers",
     "userSetOnLoad": false
   }
